@@ -36,5 +36,5 @@ class Book:
             self.__status = status.title()
             return True
 
-        print("Invalid status!")
+        print("Invalid status detected!")
         return False
